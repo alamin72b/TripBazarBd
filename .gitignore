@@ -1,0 +1,41 @@
+# ========================
+# 1. Dependencies
+# ========================
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# ========================
+# 2. Environment Variables (CRITICAL)
+# ========================
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# ========================
+# 3. Build Outputs
+# ========================
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/build/
+
+# NestJS
+backend/dist/
+
+# ========================
+# 4. OS & Editor Files
+# ========================
+.DS_Store
+.vscode/
+.idea/
+*.log
+
+# ========================
+# 5. Database
+# ========================
+*.sqlite
+*.db
+*.db-journal
